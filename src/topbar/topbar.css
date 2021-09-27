@@ -1,0 +1,33 @@
+.bkgd_top {
+    margin: auto;
+    height: 100px;
+    background-color: white;
+    color: green;
+    font-family: Arial;
+    font-size: 16pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logomedio {
+    width: 150px;
+    height: 50px;
+}
+
+.links_e_botao {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 50px;
+    margin-right: 15px;
+}
+
+.top_botao {
+    width: 100px;
+}
+
+/* {
+    border: solid;
+    border-width: 1px;
+}*/
