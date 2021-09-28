@@ -1,0 +1,26 @@
+.principals1 {
+    color: rgb(60,60,60);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.esquerdas1 {
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.t1s1 {
+    font-size: 30pt;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.t2s1 {
+    font-size: 12pt;
+    font-weight: 500;
+}

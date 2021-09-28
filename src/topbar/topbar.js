@@ -5,7 +5,7 @@ import Link from '../genericos/link/link'
 function Topbar(props){
     return(
         <div className='bkgd_top'>
-            <img className='logotop' src='' alt='logomedio'/>
+            <img className='logotop' src='src/imagens/logo100x250.png' alt='logomedio'/>
             <div className='links_e_botao'>
                 <Link nome='HOME' href=''/>
                 <Link nome='BLOG' href=''/>
