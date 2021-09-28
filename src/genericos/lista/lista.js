@@ -2,7 +2,7 @@ import './lista.css'
 
 function Lista(props){
     return(
-        <ul className={props.class}>{props.nome}{props.children}</ul>
+        <ul className={props.class}>{props.children}</ul>
     )
 }
 

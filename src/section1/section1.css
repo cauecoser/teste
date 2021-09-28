@@ -4,10 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 80px;
 }
 
 .esquerdas1 {
     width: 500px;
+    justify-content: center;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -18,13 +20,35 @@
     font-size: 30pt;
     font-weight: 700;
     line-height: 40px;
+    width: 500px;
 }
 
 .t2s1 {
-    font-size: 12pt;
+    font-size: 13pt;
     font-weight: 500;
+    width: 500px;
 }
 
 .botaos1 {
-    width: 350px;
+    width: 400px;
+    margin: auto;
 }
+
+.listas1 {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 30px;
+    font-size: 13pt;
+    font-weight: 500;
+}
+
+.titlistas1 {
+    font-size: 14pt;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*{
+    border: solid;
+    border-width: 1px;
+}*/

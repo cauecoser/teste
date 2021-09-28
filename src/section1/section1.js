@@ -12,12 +12,13 @@ function Section1(props){
             </div>
             <div className='direitas1'>
                 <div className='divlistas1'>
-                    <Lista class='listas1' nome='Alguns resultados alcançados:'>
-                        <ItemLista nome='Reduzir nossos custos;'/>
-                        <ItemLista nome='Aumentar nossos rendimentos;'/>
-                        <ItemLista nome='Reduzir a mortalidade do rebanho;'/>
-                        <ItemLista nome='Gerenciar manejos inteligentes;'/>
-                        <ItemLista nome='previsões mais fidedignas para monta e parição.'/>
+                    <p className='titlistas1'>Alguns resultados alcançados:</p>
+                    <Lista class='listas1'>
+                        <ItemLista img='src/imagens/logomao.png' nome='Reduzir nossos custos;'/>
+                        <ItemLista img='src/imagens/logomao.png' nome='Aumentar nossos rendimentos;'/>
+                        <ItemLista img='src/imagens/logomao.png' nome='Reduzir a mortalidade do rebanho;'/>
+                        <ItemLista img='src/imagens/logomao.png' nome='Gerenciar manejos inteligentes;'/>
+                        <ItemLista img='src/imagens/logomao.png' nome='previsões mais fidedignas para monta e parição.'/>
                     </Lista>
                 </div>
                 <div className='botaos1'><Botao class='botaos1' nome='SAIBA MAIS' onclick=''></Botao></div>
