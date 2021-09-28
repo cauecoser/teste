@@ -2,7 +2,7 @@ import './botao.css'
 
 function Botao(props) {
     return (
-        <button id='botaogen' className={props.class} onClick=''>{props.nome}</button>
+        <button id='botaogen' className={props.class} onClick={props.onclick}>{props.nome}</button>
     )
 }
 
