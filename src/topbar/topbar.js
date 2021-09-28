@@ -1,11 +1,12 @@
 import './topbar.css'
+import logopequeno from '../imagens/logo100x250.png'
 import Botao from '../genericos/botao/botao'
 import Link from '../genericos/link/link'
 
 function Topbar(props){
     return(
         <div className='bkgd_top'>
-            <img className='logotop' src='src/imagens/logo100x250.png' alt='logomedio'/>
+            <img className='logotop' src={logopequeno} alt='logomedio'/>
             <div className='links_e_botao'>
                 <Link nome='HOME' href=''/>
                 <Link nome='BLOG' href=''/>

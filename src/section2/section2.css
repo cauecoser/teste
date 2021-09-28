@@ -1,0 +1,50 @@
+.principals2 {
+    margin: auto;
+    color: rgb(60,60,60);
+    text-align: center;
+    height: 600px;
+}
+
+.t1s2 {
+    font-size: 35pt;
+    font-weight: 700;
+    margin: auto;
+    height: 50px;
+    margin-bottom: 70px;
+}
+
+.t2s2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baixos2 {
+    display:flex;
+    justify-content: center;
+    gap:200px;
+}
+
+.esquerdas2 {
+    justify-content: center;
+}
+
+.direitas2 {
+    width: 500px;
+}
+
+.listas2 {
+    text-align: left;
+    list-style-type: none;
+    font-size: 13pt;
+    font-weight: 500;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*{
+    border: solid;
+    border-width: 1px;
+}*/

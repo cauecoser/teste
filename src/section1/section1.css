@@ -36,10 +36,11 @@
 
 .listas1 {
     list-style: none;
-    padding-left: 0px;
-    line-height: 30px;
+    padding-left: 10px;
+    line-height: 40px;
     font-size: 13pt;
     font-weight: 500;
+
 }
 
 .titlistas1 {
@@ -47,8 +48,3 @@
     font-weight: 700;
     text-align: center;
 }
-
-/*{
-    border: solid;
-    border-width: 1px;
-}*/
