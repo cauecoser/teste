@@ -1,11 +1,11 @@
 import iconemao from '../imagens/iconemao.png'
-import  iconegrafico1 from '../imagens/iconegrafico1.png'
+import iconegrafico1 from '../imagens/iconegrafico1.png'
 import iconegrafico2 from '../imagens/iconegrafico2.png'
 import iconeengrenagem from '../imagens/iconeengrenagem.png'
 import iconealvo from '../imagens/iconealvo.png'
-import Botao from '../genericos/botao/botao'
-import ItemLista from '../genericos/itemlista/item'
-import Lista from '../genericos/lista/lista'
+import Botao from '../botao/botao'
+import ItemLista from '../itemlista/item.js'
+import Lista from '../lista/lista'
 import './section1.css'
 
 function Section1(){

@@ -1,7 +1,7 @@
 import './topbar.css'
 import logopequeno from '../imagens/logo100x250.png'
-import Botao from '../genericos/botao/botao'
-import Link from '../genericos/link/link'
+import Botao from '../botao/botao'
+import Link from '../link/link'
 
 function Topbar(props){
     return(

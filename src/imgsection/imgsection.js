@@ -1,11 +1,12 @@
-import Botao from '../genericos/botao/botao'
+import './imgsection.css'
+import Botao from '../botao/botao'
 
 function ImgSection(props) {
     return(
-        <div className={props.classimg}>
-            <div class={props.classdiv}>
-                <p className={props.classp}>{props.textops1}</p>
-                <Botao class={props.classbotao} nome={props.nomebotao}/>
+        <div className='fundofazenda'>
+            <div class='metadesectionimg1'>
+                <p className='psimg1'>Gerencie sua fazenda facilmente de forma EFICAZ!</p>
+                <Botao class='botaosimg1' nome='CONTRATE' onclick=''/>
             </div>
         </div>
     )

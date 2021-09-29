@@ -1,0 +1,6 @@
+.divfinal {
+    margin: auto;
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+}
