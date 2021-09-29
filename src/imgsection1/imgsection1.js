@@ -1,7 +1,7 @@
-import './imgsection.css'
+import './imgsection1.css'
 import Botao from '../botao/botao'
 
-function ImgSection(props) {
+function ImgSection1(props) {
     return(
         <div className='fundofazenda'>
             <div class='metadesectionimg1'>
@@ -12,4 +12,4 @@ function ImgSection(props) {
     )
 }
 
-export default ImgSection
+export default ImgSection1

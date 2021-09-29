@@ -1,0 +1,31 @@
+.fundofale {
+    color: white;
+    margin: auto;
+    height: 570px;
+    background-image: url('../imagens/faleconosco.png');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.textossimg2 {
+    text-align: center;
+    line-height: 10px;
+}
+
+.p1simg2 {
+    font-size: 25pt;
+    font-weight: 700;
+}
+
+.p2simg2 {
+    font-size: 18pt;
+}
+
+.botaosimg2 {
+    width: 250px;
+    margin-bottom: 60px;
+}

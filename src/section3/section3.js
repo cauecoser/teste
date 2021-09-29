@@ -2,7 +2,8 @@ import './section3.css'
 import Banner from '../banner/banner'
 
 function Section3(props) {
-    return(
+    return(<>
+        <div className='s3title'>Conheça nossos planos</div>
         <div className='divfinal'>
             <Banner
                 nomeplano='START'
@@ -13,7 +14,8 @@ function Section3(props) {
                 valorano='R$264,00'
                 valormes='R$22,00'
                 corbanner='banneramar'
-                fundobotao='botaoamar'/>
+                fundobotao='botaoamar'
+            />
             <Banner
                 nomeplano='PLUS'
                 item1='Até 1500 animais'
@@ -23,7 +25,8 @@ function Section3(props) {
                 valorano='R$384,00'
                 valormes='R$32,00'
                 corbanner='bannerverm'
-                fundobotao='botaoverm'/>
+                fundobotao='botaoverm'
+            />
             <Banner
                 nomeplano='MASTER'
                 item1='Animais ilimitados'
@@ -33,9 +36,11 @@ function Section3(props) {
                 valorano='R$456,00'
                 valormes='R$38,00'
                 corbanner='bannerverd'
-                fundobotao='botaoverd'/>
+                fundobotao='botaoverd'
+            />
         </div>
-    )
+        <div className='s3foot'>Entre em contato se precisar de um plano diferente.</div>
+    </>)
 }
 
 export default Section3

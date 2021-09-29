@@ -1,0 +1,23 @@
+.fundos4 {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.iconesocial {
+    width: 100px;
+    height: 80px;
+}
+
+.logopequeno {
+    margin: 30px;
+}
