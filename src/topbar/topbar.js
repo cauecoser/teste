@@ -13,7 +13,7 @@ function Topbar(props){
                 <Link nome='SUPORTE' href=''/>
                 <Link nome='PREÇOS' href=''/>
                 <Link nome='CONTATO' href=''/>
-                <Botao class='top_botao' nome='ENTRAR' onclick=''/>
+                <Botao class='top_botao' nome='ENTRAR' onclick='??????????'/>
             </div>
         </div>
     )
